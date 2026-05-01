@@ -12,6 +12,25 @@ A full-stack **Team Task Management System** built using **FastAPI, PostgreSQL, 
 * JWT-based authentication
 * Role-based access (Admin / Member)
 
+ Role-Based Signup Rules
+
+This project supports two types of users: Admin and Normal User.
+
+ Normal User Signup
+Users can sign up using a regular email address
+Example:
+user@gmail.com
+john123@mail.com
+
+ Admin Signup
+Admin access is restricted to specific emails
+To create an admin account, use an email with the admin domain or predefined format:
+Example:
+admin@taskmanager.com
+admin.yourname@company.com
+
+ Only authorized admin emails will be granted admin privileges in the system.
+
  Project Management
 
 * Admin can create projects
